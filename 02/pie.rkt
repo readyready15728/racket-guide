@@ -4,3 +4,5 @@
 
 (define (piece str)
   (substring str 0 pie))
+
+(println (piece "key lime pie"))
