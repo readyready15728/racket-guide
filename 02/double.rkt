@@ -3,5 +3,5 @@
 (define (double v)
   ((if (string? v) string-append +) v v))
 
-(display (double "mnah"))
-(display (double 5))
+(println (double "mnah"))
+(println (double 5))

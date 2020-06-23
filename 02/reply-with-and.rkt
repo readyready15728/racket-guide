@@ -7,5 +7,5 @@
       "hi!"
       "huh?"))
 
-(display (reply "hello racket"))
-(display (reply 17))
+(println (reply "hello racket"))
+(println (reply 17))
