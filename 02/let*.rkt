@@ -1,6 +1,6 @@
 #lang racket
 
-(println (let* ([x (random 4)]
+(display (let* ([x (random 4)]
                 [o (random 4)]
                 [diff (number->string (abs (- x o)))])
            (cond

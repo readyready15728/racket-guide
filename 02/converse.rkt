@@ -10,5 +10,5 @@
     [(starts? "goodbye") "bye!"]
     [else "huh?"]))
 
-(println (converse "hello!"))
-(println (converse "urp?"))
+(display (converse "hello!"))
+(display (converse "urp?"))

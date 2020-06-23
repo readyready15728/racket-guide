@@ -11,8 +11,7 @@
      "I don't know"]
     [else "huh?"]))
 
-(println (reply-more "hello racket"))
-(println (reply-more "goodbye cruel world")) ; What a morbid example
-(println (reply-more "what is your favorite color?"))
-(println (reply-more "mine is lime green"))
-
+(display (reply-more "hello racket"))
+(display (reply-more "goodbye cruel world")) ; What a morbid example
+(display (reply-more "what is your favorite color?"))
+(display (reply-more "mine is lime green"))

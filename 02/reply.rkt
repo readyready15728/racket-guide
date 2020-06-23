@@ -5,5 +5,5 @@
       "hi!"
       "huh?"))
 
-(println (reply "hello racket"))
-(println (reply "λx:(μα.α→α).xx"))
+(display (reply "hello racket"))
+(display (reply "λx:(μα.α→α).xx"))
